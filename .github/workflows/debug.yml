@@ -1,0 +1,8 @@
+name: Test
+on: [push]
+jobs:
+  test-job:
+    runs-on: [self-hosted, linux]
+    steps:
+      - run: echo "hello from runner"
+
