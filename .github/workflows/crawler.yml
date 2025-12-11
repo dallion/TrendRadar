@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   crawl:
-    runs-on: Linux x64    
+    runs-on: self-hosted    
     timeout-minutes: 5
     
     steps:
